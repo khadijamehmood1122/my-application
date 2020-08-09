@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">projectWorkerPart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="JobNames">
+        <item>Automobile_mechnician</item>
+        <item>Beautician</item>
+        <item>Blacksmith</item>
+        <item>Butcher</item>
+        <item>Carpenter</item>
+        <item>Car Washer</item>
+        <item>Cobbler</item>
+        <item>Driver</item>
+        <item>Electrician</item>
+        <item>Engineer</item>
+        <item>Gardener</item>
+        <item>Hair Dresses</item>
+        <item>HouseKeeper/maid</item>
+        <item>Labour</item>
+        <item>Mechanic</item>
+        <item>Milkman</item>
+        <item>Painter</item>
+        <item>Photographer</item>
+        <item>Plumber</item>
+        <item>Security Guard</item>
+        <item>Tailor</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectworkerpart">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Fori Mazdoori"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Customer_E_Activity"></activity>
+        <activity android:name=".Worker_E_Activity" />
+        <activity android:name=".WorkerAccountActivity" />
+        <activity android:name=".WorkerUpdateActivity" />
+        <activity android:name=".updateCustomerActivity" />
+        <activity android:name=".CustomerAccountActivity" />
+        <activity android:name=".customerRatingActivity" />
+        <activity android:name=".RatingPopupActivity" />
+        <activity android:name=".CustomerRecordActivity" />
+        <activity android:name=".WorkerRecordActivity" />
+        <activity android:name=".RecordsActivity" />
+        <activity android:name=".AdminLoginActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".WorkerDashboard" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".ShowImageActivity" />
+        <activity android:name=".CustomerDashboard" />
+        <activity android:name=".CustomerLoginActivity" />
+        <activity android:name=".CustomerRegisterActivity" />
+        <activity android:name=".WorkerRegisterActivity" />
+        <activity android:name=".WorkerLoginActivity" />
+        <activity android:name=".SelectionActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
